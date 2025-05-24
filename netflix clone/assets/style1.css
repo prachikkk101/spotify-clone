@@ -1,0 +1,49 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no no-repeat;
+    background-size: max(1000px , 100vw );
+
+    height : 80vh;
+    position: relative;
+}
+
+.main.box{
+    height : 80vh;
+    width : 100vh;
+    opacity : 0.2;
+    background-color : black;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space between;
+    display: flex;
+    align-items: center;
+    height:112px ;
+}
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+
+}
+.hero :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero :nth-child(2){
+    font-weight: 700;
+    font-size : 24px;
+
+}
